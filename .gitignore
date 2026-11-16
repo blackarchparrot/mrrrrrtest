@@ -1,0 +1,10 @@
+@"
+node_modules/
+.next/
+dist/
+build/
+.wrangler/
+.env
+.env.local
+.env.production
+"@ | Out-File -Encoding utf8 .gitignore
